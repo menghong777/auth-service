@@ -1,6 +1,8 @@
 # Auth Service
 
 ## Getting started
+prerequisite: NodeJS, MySQL, Yarn
+
 ```
 yarn install
 ```
