@@ -4,8 +4,8 @@ export async function up (knex: Knex) {
   // tslint:disable-next-line: await-promise
   await knex.schema.createTable('user', table => {
     table.increments('id')
-    table.string('username', 20)
-    table.string('email', 150)
+    table.string('username', 20).unique().index()
+    table.string('email', 150).unique().index()
     table.string('password')
     table.string('salt')
     table.dateTime('created').notNullable().defaultTo(knex.fn.now())
