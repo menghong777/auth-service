@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "incremental": true,
+    "allowJs": true,
+    "paths": {
+      "*": [
+        "./node_modules/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "apidoc",
+    "migrations",
+    "dist",
+    "tables.d"
+  ],
+  "compileOnSave": true,
+  "watch": true
+}

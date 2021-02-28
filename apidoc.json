@@ -1,0 +1,7 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Auth Service API documentation",
+  "title": "Auth Service API Documentation",
+  "url" : "https://api.github.com/v1"
+}
